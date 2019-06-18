@@ -1,0 +1,14 @@
+<!--pages/my/my.wxml-->
+<view class="my">
+  <view class="wrapper">
+  <image class="bg" src="{{url+pic}}"></image>
+  <view class="user"></view>
+  </view>
+  <block wx:for="{{myList}}" wx:key="{{index}}">
+    <view class="items">
+      <text class="left iconfont {{item.icon}}"></text>
+      <text>{{item.title}}</text>
+      <text class="iconfont icon-youjiantou"></text>
+    </view>
+  </block>
+</view>

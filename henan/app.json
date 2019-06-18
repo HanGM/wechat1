@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/recomend/recomend",
+    "pages/videos/videos",
+    "pages/my/my",
+    "pages/newsDetail/newsDetail",
+    "pages/videosDetail/videosDetail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#D94342",
+    "navigationBarTitleText": "中部建设",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#D94342",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "头条",
+        "iconPath": "resource/images/home.png",
+        "selectedIconPath": "resource/images/home_on.png"
+      },
+      {
+        "pagePath": "pages/recomend/recomend",
+        "text": "推荐",
+        "iconPath": "resource/images/recomend.png",
+        "selectedIconPath": "resource/images/recomend_on.png"
+      },
+      {
+        "pagePath": "pages/videos/videos",
+        "text": "视频",
+        "iconPath": "resource/images/videos.png",
+        "selectedIconPath": "resource/images/videos_on.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "resource/images/my.png",
+        "selectedIconPath": "resource/images/my_on.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

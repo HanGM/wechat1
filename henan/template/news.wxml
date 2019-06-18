@@ -1,0 +1,18 @@
+<template name="news">
+  <view class="wrapper">
+    <view class="txt">
+      <view>{{title}}</view>
+      <text>{{tag}}</text>
+      <!-- <text>{{createTime}}</text> -->
+      <text>1天前</text>
+      <text class="iconfont icon-zan"></text>
+      <text>{{thumbNum}}</text>
+      <text class="iconfont icon-pinglun"></text>
+      <text>{{discussNum}}</text>
+    </view>
+    <view class="pic">
+      <!-- <image src="{{picPath}}"/> -->
+      <image src="http://127.0.0.1:3000{{pic}}"/>
+    </view>
+  </view>
+</template>

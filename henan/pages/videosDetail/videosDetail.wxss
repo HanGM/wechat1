@@ -1,0 +1,44 @@
+/* pages/videosDetail/videosDetail.wxss */
+.detail{
+  padding: 0 20rpx;
+  line-height: 56rpx;
+  margin-bottom: 200rpx;
+}
+.title{
+  width: 100%;
+  font-size: 32rpx;
+  font-weight: bold;
+  border-bottom: 2rpx solid #ccc; 
+}
+.more{
+  display: flex;
+  justify-content: space-between;
+  font-size: 24rpx;
+  height: 56rpx;
+}
+#myVideo{
+  width:710rpx;
+  height:450rpx;
+}
+.action{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  width: 710rpx;
+  height: 56rpx;
+  padding: 20rpx;
+  background-color: #f1f1f1;
+}
+.action input,.action text{
+  flex: 1;
+}
+.action input{
+  flex: 8;
+  border: 2rpx solid #ccc;
+  border-radius: 28rpx;
+  padding: 0 20rpx;
+}
+.action text{
+  text-align: center;
+}

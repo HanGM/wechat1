@@ -1,0 +1,23 @@
+<!--pages/newsDetail/newsDetail.wxml-->
+<view class="container detail">
+  <view class="main">
+    <text class="title">{{detail.title}}</text>
+    <view class="more">
+      <text>2019-04-30 17:12</text>
+      <text>2358人浏览</text>
+    </view>
+    <image src="http://img2.imgtn.bdimg.com/it/u=1103357148,3427447938&fm=26&gp=0.jpg" mode="aspfill"></image>
+    <view class="content">
+      昨晚，国家发改委有关负责人就 " 稀土 " 问题回答记者提问的报道，迅速成为了国内外关注的焦点。 其中记者问，稀土会成为中国反制美国打压的武器吗？ 负责人含蓄地答：" 如果有谁想利用我们出口稀土所制造的产品，反用于遏制打压中国的发展，那么我想赣南原中央苏区人民、中国人民都会不高兴的。" ——言下之意，某国你可以试试看。
+      <image src="http://img5.imgtn.bdimg.com/it/u=3601280859,4090328934&fm=11&gp=0.jpg" mode="aspfill"></image>
+
+
+      这不，" 稀土 " 一事瞬间引起了全球的注意——国外很多人仿佛恍然惊醒：原来，中国还有这么张牌？ 而且，这何止是普通的牌 …… 这简直是 " 王炸 " 啊！
+    </view>
+  </view>
+  <view class="action">
+    <input type="text" placeholder="写评论"></input>
+    <text class="iconfont icon-xing" style="font-size:16px"></text>
+    <text class="iconfont icon-zan"></text>
+  </view>
+</view>

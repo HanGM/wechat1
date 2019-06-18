@@ -1,0 +1,7 @@
+<!--pages/recomend/recomend.wxml-->
+<import src="../../template/news.wxml" />
+<block wx:for="{{recomendList}}" wx:key="index">
+    <navigator url="/pages/newsDetail/newsDetail?id={{item.newsId}}">
+      <template is="news" data="{{...item}}"></template>
+    </navigator>
+  </block>

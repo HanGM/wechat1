@@ -1,0 +1,29 @@
+/**index.wxss**/
+@import "../../template/news.wxss";
+.home{
+  padding: 0;
+}
+.banner{
+  width: 750rpx;
+  height: 240rpx;
+}
+.slide-image{
+  width: 100%;
+  height:100%;
+}
+.move{
+  width:750rpx;
+  height:48rpx;
+  color: #D94342;
+  font-size: 28rpx;
+  font-weight: bold;
+  line-height: 48rpx;
+  border-bottom: 2rpx solid #ccc;
+  position: relative;
+}
+.move-text{
+  height:48rpx;
+  white-space: nowrap;
+  position: absolute;
+  top: 0;
+}

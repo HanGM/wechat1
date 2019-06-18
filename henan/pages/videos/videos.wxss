@@ -1,0 +1,50 @@
+/* pages/videos/videos.wxss */
+.videos{
+  width: 750rpx;
+  padding: 0;
+  text-align: left;
+  font-size: 28rpx;
+  line-height: 56rpx;
+}
+.box{
+  width: 750rpx;
+  height: 450rpx;
+  position: relative;
+}
+.box image,.box .cover{
+  width: 100%;
+  height: 100%;
+}
+.box .cover{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,.6)
+}
+.box .cover .play{
+  width: 0;
+  height: 0;
+  border: 60rpx solid transparent;
+  border-left-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  transform: translateX(30rpx)
+}
+.title{
+  padding:0 20rpx;
+}
+.more{
+  margin: 20rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+.more text{
+  margin-right: 20rpx;
+}
+.more text.icon-fenxiang{
+  margin: 0;
+  float: right;
+}

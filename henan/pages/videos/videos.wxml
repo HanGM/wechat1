@@ -1,0 +1,22 @@
+<!--pages/videos/videos.wxml-->
+<view class="container videos">
+  <block wx:for="{{videosList}}" wx:key="{{index}}">
+    <navigator url="/pages/videosDetail/videosDetail?id={{item.filmsId}}">
+      <text class="title">{{item.title}}</text>
+      <view class="box">
+      <image src="http://127.0.0.1:3000{{item.cover}}"></image>
+      <view class="cover">
+      <view class="play"></view>
+      </view>
+      </view>
+      <view class="more">
+        <text class="iconfont icon-yanjing" style="font-size:12px"></text>
+        <text>985</text>
+        <text class="iconfont icon-pinglun"></text>
+        <text>225</text>
+        <text class="iconfont icon-fenxiang"></text>
+      </view>
+    </navigator>
+  </block>
+
+</view>

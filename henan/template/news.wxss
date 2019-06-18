@@ -1,0 +1,29 @@
+.wrapper{
+  width: 730rpx;
+  padding: 10rpx;
+  border-bottom: 2rpx solid #666;
+  display: flex;
+  justify-content: space-between;
+}
+.txt{
+  color: #666;
+  flex-grow: 1;
+  padding: 0 10rpx; 
+}
+.txt view{
+  font-size: 32rpx;
+  font-weight: bold;
+}
+.txt text{
+  font-size: 28rpx;
+  margin-right: 20rpx;
+}
+.pic{
+  flex-shrink: 0;
+  width: 160rpx;
+  height: 120rpx;
+}
+.pic image{
+  width: 100%;
+  height: 100%;
+}

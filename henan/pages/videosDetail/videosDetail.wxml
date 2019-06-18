@@ -1,0 +1,14 @@
+<!--pages/videosDetail/videosDetail.wxml-->
+<view class="detail">
+  <view class="title">{{videos.title}}</view>
+  <view class="more">
+    <text>{{videos.createTime}}</text>
+    <text>{{videos.lookNum}}人观看</text>
+  </view>
+  <video id="myVideo" src="{{url+videos.src}}" controls></video>
+  <view class="action">
+    <input type="text" placeholder="写评论"></input>
+    <text class="iconfont icon-xing" style="font-size:16px"></text>
+    <text class="iconfont icon-zan"></text>
+  </view>
+</view>
